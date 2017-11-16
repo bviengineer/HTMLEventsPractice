@@ -15,8 +15,9 @@ var mainDiv = document.querySelector("#main");
 
 //This function will add styling to the random sentence being displayed (created to follow DRY principles)
 function styleSentence(){
-	mainDiv.style.color = "red";
-	mainDiv.style.fontSize = "x-large";
+	mainDiv.style.color = "white";
+	mainDiv.style.fontSize = "xx-large";
+	mainDiv.style.backgroundColor = "darkblue"
 }
 
 //This function will modify the innerHTML element and display it on the page
